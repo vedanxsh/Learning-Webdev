@@ -1,0 +1,59 @@
+@font-face {
+    font-family:timerfont;
+    src: url(timer.ttf)format("truetype");
+}
+body {
+    margin: 0;
+    background-color:#1B244A;
+}
+.container {
+  font-family: "Roboto", sans-serif;
+  font-optical-sizing: auto;
+  font-weight:bolder;
+  font-style: normal;
+  font-variation-settings:
+    "wdth" 100;
+    font-size: 2em;
+    color: rgb(224, 227, 231);
+}
+.container {
+    display: flex;
+    justify-content: space-around;
+}
+.screen{
+    background-color: black;
+    align-items:center;
+    text-align: center;
+    font-family: timerfont;
+    font-size: 5em;
+    color: rgb(180, 21, 53);
+    background-color: black;
+    padding-top: 0.3em;
+    padding-bottom: 0.2em;
+    width: 3ch;
+    box-sizing: border-box;
+}
+button{
+    font-family:timerfont;
+    color: rgb(224, 227, 231);
+    background-color: #1B244A;
+    border: 2px solid rgb(224, 227, 231);
+    border-radius: 5px;
+    font-size: large;
+    padding: 1em;
+    margin-top: 1em;
+}
+button:hover{
+    background-color: #161a2d;
+    color:rgb(252, 253, 255);
+}
+.buttons{
+    justify-content: space-evenly;
+    display: flex;
+}
+.container div h3{
+    justify-content: space-evenly;
+    display: flex;
+    font-size: 2em;
+    margin: 0.5em;
+}
